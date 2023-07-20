@@ -13,7 +13,7 @@ public class ArrayRun {
 		//arrayEx1.ex6();
 		//arrayEx1.ex7();
 		//arrayEx1.ex8();
-		arrayEx1.ex9();
+		//arrayEx1.ex9();
 		
 		ArrayExample2 arrayEx2 = new ArrayExample2();
 		//arrayEx2.shallowCopy();
