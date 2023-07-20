@@ -87,10 +87,10 @@ public class ArrayExample1 {
 		// 배열 선언 및 할당
 		int[] arr = new int[4];
 		
-//		arr[0] = 100;
-//		arr[1] = 200;
-//		arr[2] = 500;
-//		arr[3] = 1000;
+		arr[0] = 100;
+		arr[1] = 200;
+		arr[2] = 500;
+		arr[3] = 1000;
 		
 		// 배열의 길이 (몇 칸 인가) : 배열명.length 
 		System.out.println("배열의 길이 : " + arr.length); // 4
@@ -122,7 +122,6 @@ public class ArrayExample1 {
 		
 		// double[] 자료형 참조 변수 height를 stack 영역에 생성하고
 		// height에 heap 영역에 새로 생성된 double 5 칸짜리 double[]의 시작주소를 대입
-		double a = sc.nextDouble();
 		
 		for(int i = 0; i < height.length; i++) {
 			System.out.print( (i+1) + "번 키 입력 : "); // 1 2 3 4 5
@@ -167,8 +166,6 @@ public class ArrayExample1 {
 		
 		// 배열 선언 및 할당
 		// 할당할 배열의 크기는 입력받은 크기 만큼(input)
-		System.out.println(input);
-		
 		int[] score = new int[input];
 		
 		// 합계 저장할 변수
@@ -189,6 +186,7 @@ public class ArrayExample1 {
 		// score[i] 값이 max 보다 크면 max 대입
 		// score[i] 값이 min 보다 작으면 min 대입
 		
+		//						4
 		for(int i = 0; i < score.length; i++) {
 			
 			if( score[i] > max ) { // 최고점 비교
@@ -203,6 +201,11 @@ public class ArrayExample1 {
 			//Math.min(1, 6); = 1
 			
 		}
+		
+		System.out.println("합계 : " + sum);
+		System.out.printf("평균 : %.1f\n", (double)sum/score.length);
+		System.out.println("최고점 : " + max);
+		System.out.println("최저점 : " + min);
 		
 	}
 	
@@ -314,9 +317,7 @@ public class ArrayExample1 {
 		if( flag == false ) {
 			System.out.println("존재하지 않음");
 		}
-		if( flag == true) {
-			System.out.println("존재하는 인덱스다");
-		}
+		
 	}
 	
 	public void ex9() {
@@ -373,8 +374,6 @@ public class ArrayExample1 {
 			// 3. 단, 일치하는 문자가 없을 경우 "존재하지 않습니다." 출력
 			System.out.println("존재하지 않음");
 		}
-		
-		
 		
 		
 	}
