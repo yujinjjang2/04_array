@@ -8,7 +8,13 @@ public class PracticeRun {
 		
 		//practiceSer.practice1();
 		//practiceSer.practice2();
-		practiceSer.practice3();
+		//practiceSer.practice3();
+		//practiceSer.practice4();
+		//practiceSer.practice5();
+		//practiceSer.practice6();
+		//practiceSer.practice7();
+		//practiceSer.practice8();
+		practiceSer.practice9();
 	}
 
 }
