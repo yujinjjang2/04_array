@@ -14,7 +14,14 @@ public class PracticeRun {
 		//practiceSer.practice6();
 		//practiceSer.practice7();
 		//practiceSer.practice8();
-		practiceSer.practice9();
+		//practiceSer.practice9();
+		//practiceSer.practice10();
+		//practiceSer.practice11();
+		//practiceSer.practice12();
+		//practiceSer.practice13();
+		practiceSer.practice14();
 	}
 
 }
+
+
